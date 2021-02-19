@@ -4,7 +4,7 @@ tocTitle: 'Add to catalog'
 description: 'Share your Storybook addon with the community'
 ---
 
-The [Addon Catalog](https://storybook.js.org/addons) is the home of all Storybook addons. It’s where we showcase your addons and how developers discover new ones. This post shows you how to prepare your addon for release, package it up, and publish it to the catalog.
+The [Addon Catalog](https://storybook.js.org/addons) is the home of all Storybook addons. It’s where we showcase your addons and how developers discover new ones. Let's prepare your addon for release, package it up, and publish it to the catalog.
 
 ![](../../images/catalog.png)
 
@@ -115,4 +115,4 @@ Which will:
 
 There you have it! We’ve successfully published our package to npm and released our first Storybook Addon. There may be a delay in your addon showing up in the catalog because it crawls npm. If your addon isn’t showing up, please file an issue on the catalog repo.
 
-Addons help the community customize and automate Storybook. Publish your addon to share it with thousands of devs. I’m excited to see what you build!
+Addons help the community customize and automate Storybook. Publish your addon to share it with thousands of devs.

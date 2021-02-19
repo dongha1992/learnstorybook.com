@@ -1,6 +1,6 @@
 ---
 title: 'Track state'
-tocTitle: 'Track State'
+tocTitle: 'Track state'
 description: 'Manage addon state across the Manager and Preview'
 ---
 

@@ -15,7 +15,7 @@ Storybook is a tool for developing UI components outside your app in an isolated
 
 It's tough to tell if your CSS layout matches the design. Eyeballing alignment is tricky when DOM elements are far apart or have odd shapes.
 
-The Addon Outline adds a toolbar button that outlines all UI elements, using CSS. That makes it easy to verify positioning and placement in a glance. Check out the example below.
+The [Outline addon](https://storybook.js.org/addons/storybook-addon-outline) adds a toolbar button that outlines all UI elements, using CSS. That makes it easy to verify positioning and placement in a glance. Check out the example below.
 
 ![Outline Addon](../../images/outline-addon-hero.gif)
 
@@ -45,11 +45,13 @@ Addons can create three types of interface elements:
 
 ![](../../images/tab.png)
 
-It’s clear that addons can do a lot. So how do you build an addon?
+It’s clear that addons can do a lot. So what does our addon do?
 
-For the Outline addon, a user should be able to click a button in the toolbar to draw outlines around each element in the story. And click that button again to remove all the outlines. Our addon code has four parts:
+The Outline addon allows a developer to click a button in the toolbar to draw outlines around each element in the story. When they click that button again, all the outlines are removed.
 
-- **UI** that creates the “tool” button in the toolbar. This is what the user clicks.
+Our addon code has four parts that we'll cover in the next few chapters:
+
+- **Addon UI** that creates the “tool” button in the toolbar. This is what the user clicks.
 - **Registration** of the addon with Storybook.
 - **State management** to track the toggle state of the tool. This controls whether the outlines are visible or not.
 - **Decorator** that injects CSS in the preview iframe to draw the outlines.

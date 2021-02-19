@@ -1,7 +1,7 @@
 ---
 title: 'Preset'
 tocTitle: 'Preset'
-description: 'Enable outline for all stories'
+description: 'Enable Outline for every story'
 ---
 
 Now that the decorator is out of the way, let's use a preset to wrap every story with it.

@@ -1,10 +1,10 @@
 ---
-title: 'Creating Addons'
+title: 'Create an Addon'
 description: 'Learn how to build your own addons that will super charge your development'
-heroDescription: 'Addons are one of the top reasons for Storybook’s popularity. With the addon API, you can add new features, automate workflows, and integrate with their favourite libraries. What’s more, you can share those addons with the community as reusable packages.'
-overview: 'While the Storybook community offers over 200 addons, you can also build one tailored to your specific needs. Getting started is straightforward. This guide will introduce you to the Addon Kit and walk through the associated APIs and help you build your first Storybook addon.'
+heroDescription: 'Addons give you superpowers to extend Storybook, automate workflows, and integrate with your favorite tools. This guide shows you how to create an addon.'
+overview: 'While the Storybook community offers over 250 addons, you can also build one tailored to your specific needs. This guide introduces you to the Addon Kit and APIs, along the way you will build an addon from scratch.'
 order: 4
-themeColor: '#FF4785'
+themeColor: '#129F00'
 codeGithubUrl: 'https://github.com/chromaui/learnstorybook-code'
 heroAnimationName: null
 toc:
