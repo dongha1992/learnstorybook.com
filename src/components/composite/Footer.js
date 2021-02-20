@@ -357,9 +357,9 @@ const Footer = ({ ...props }) => (
                 you build a UI from scratch.
               </ResourceDesc>
               <ResourceActions>
-                <ResourceAction withArrow href={tutorials}>
+                <Link withArrow href={tutorials}>
                   Learn Storybook now
-                </ResourceAction>
+                </Link>
               </ResourceActions>
             </Meta>
           </Resource>
@@ -427,7 +427,7 @@ const Footer = ({ ...props }) => (
       <Service>
         <Text>Visual testing by</Text>
         <a href="https://www.chromatic.com/">
-          <Chromatic src={withPrefix('/icon-chroma.svg')} alt="Chromatic" />
+          <Chromatic src={withPrefix('/logo-chromatic.svg')} alt="Chromatic" />
         </a>
       </Service>
       <Service>
